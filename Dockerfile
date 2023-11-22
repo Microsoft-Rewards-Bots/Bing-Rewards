@@ -1,4 +1,4 @@
-FROM python:3.9.13-slim
+FROM python:slim-bookworm
 
 COPY .git/ /bing-rewards/.git/
 COPY BingRewards/ /bing-rewards/BingRewards/
